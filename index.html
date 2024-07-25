@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautier Evennou - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <h1 class="glitch" data-text="Gautier Evennou">Gautier Evennou</h1>
+            <p class="subtitle">Engineer, PhD Student and ADHD enthusiastic</p>
+            <a href="path/to/your/cv.pdf" class="cta-button" download>
+                <span>Download CV</span>
+                <i class="fas fa-download"></i>
+            </a>
+        </section>
+
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Currently working on Semantic Alterations, trying to find out how to cope with rampant misinformation and FOMO.</p>
+        </section>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-item" id="projects-completed">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Research Papers</h3>
+                    <p class="counter" data-target="2">0</p>
+                </div>
+                <div class="dashboard-item" id="clients-served">
+                    <i class="fas fa-users"></i>
+                    <h3>GPU fried</h3>
+                    <p class="counter" data-target="30">0</p>
+                </div>
+                <div class="dashboard-item" id="years-experience">
+                    <i class="fas fa-clock"></i>
+                    <h3>Years of Experience</h3>
+                    <p class="counter" data-target="2">0</p>
+                </div>
+                <div class="dashboard-item" id="awards-won">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Awards Won</h3>
+                    <p class="counter" data-target="1">0</p>
+                </div>
+
+            </div>
+            <div class="skills-container">
+                <h3>Skills</h3>
+                <div class="skill-bar" data-skill="Python" data-percentage="95"></div>
+                <div class="skill-bar" data-skill="Pytorch" data-percentage="90"></div>
+                <div class="skill-bar" data-skill="Large Multimodal Models" data-percentage="80"></div>
+                <div class="skill-bar" data-skill="Finding fun ideas" data-percentage="80"></div>
+                <div class="skill-bar" data-skill="Writing Research Papers" data-percentage="50"></div>
+                <div class="skill-bar" data-skill="Finding working ideas" data-percentage="20"></div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-list"></div>
+        </section>
+        <section id="testimonials">
+            <h2>What People Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"Your Name is an exceptional developer. Their attention to detail and problem-solving skills are unmatched."</p>
+                    <h4>John Doe, CEO of TechCorp</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Working with Your Name was a game-changer for our project. They delivered beyond our expectations."</p>
+                    <h4>Jane Smith, Project Manager at InnovateTech</h4>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Your contact information or a contact form goes here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://twitter.com/Gautier_Evennou" target="_blank" rel="noopener noreferrer" class="social-icon x-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/gautier-evennou" target="_blank" rel="noopener noreferrer" class="social-icon linkedin-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Gautier29" target="_blank" rel="noopener noreferrer"  class="social-icon github-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p>&copy; 2024 Gautier Evennou. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
